@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZingMP3</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 4px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(190, 190, 190, 0.4); 
+          border-radius: 10px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="wrap-page">
+
+        <div class = nav-vertical-left>
+            <nav class="nav-logo">
+                <div class="wrap-logo">
+                    <div class="logo-nav">
+                        <img src="./img/logo-mp3.svg" class="logo-w">
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="nav-part-one">
+                <ul class="ul-part-one">
+                    <li class="li-part-one">
+                        <a href="#" class="wrap-icon active-nav">
+                            <i class="fab fa-napster icon-nav-part-one icon"></i> <span>Cá Nhân</span>
+                        </a>
+                    </li>
+                    <li class="li-part-one">
+                        <a href="#" class="wrap-icon">
+                            <i class="fas fa-record-vinyl icon-nav-part-one icon"></i> <span>Khám Phá</span>
+                        </a>
+                    </li>
+                    <li class="li-part-one">
+                        <a href="#" class="wrap-icon">
+                            <i class="fas fa-chart-line icon-nav-part-one icon"></i> <span>#zingchart</span>
+                        </a>
+                    </li>
+                    <li class="li-part-one">
+                        <a href="#" class="wrap-icon">
+                            <i class="fas fa-broadcast-tower icon-nav-part-one icon"></i> <span>Radio</span>
+                        </a>
+                    </li>
+                    <li class="li-part-one">
+                        <a href="#" class="wrap-icon">
+                            <i class="fas fa-equals icon-nav-part-one icon"></i> <span>Theo Dõi</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="div-line">
+
+            </div>
+
+            <div class="wrap-nav-part-two">
+                <nav class="nav-part-two">
+                    <ul class="ul-part-two">
+                        <li class="li-part-two">
+                            <a href="#" class="wrap-icon">
+                                <i class="fas fa-music icon-nav-part-two icon"></i> <span>Nhạc Mới</span>
+                            </a>
+                        </li>
+                        <li class="li-part-two">
+                            <a href="#" class="wrap-icon">
+                                <i class="fas fa-icons icon-nav-part-two icon"></i> <span>Thể Loại</span>
+                            </a>
+                        </li>
+                        <li class="li-part-two">
+                            <a href="#" class="wrap-icon">
+                                <i class="far fa-star icon-nav-part-two icon"></i> <span>Top 100</span>
+                            </a>
+                        </li>
+                        <li class="li-part-two">
+                            <a href="#" class="wrap-icon">
+                                <i class="fas fa-film icon-nav-part-two icon"></i> <span>MV</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="banner-vip"> 
+                    <div class="text text-banner-vip">
+                        Nghe nhạc không quảng cáo cùng kho nhạc VIP
+                    </div>
+                        <a href="#" target="_blank" class="btn-up-vip">NÂNG CẤP VIP</a>
+                </div>
+                <nav class="lbr-music">
+                    <div class="title-lbr"> THƯ VIỆN </div>
+                        <ul class="ul-lbr">
+                            <li class="li-lbr">
+                                <a href="#" class="wrap-icon">
+                                    <i class="icon-nav-part-two icon">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg">
+                                    </i>
+                                    <span>Bài hát</span>
+                                </a>
+                            </li>
+                            <li class="li-lbr">
+                                <a href="#" class="wrap-icon">
+                                    <i class="icon-nav-part-two icon">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg">
+                                    </i>
+                                    <span>Playlist</span>
+                                </a>
+                            </li>
+                            <li class="li-lbr">
+                                <a href="#" class="wrap-icon">
+                                    <i class="icon-nav-part-two icon">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg">
+                                    </i>
+                                    <span>Gần đây</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            <nav class="nav-part-footer">
+                <button class="btn-add-new-playlist button">
+                    <i class="fas fa-plus icon-add-new-playlist icon"></i> <span>Tạo playlist mới</span>
+                </button>
+            </nav>
+        </div>
+
+        <header class="nav-header">
+            <div class="header-left">
+                <button class="btn-back button">
+                    <i class="fas fa-arrow-left icon-back"></i>
+                </button>
+                <button class="btn-back button">
+                    <i class="fas fa-arrow-right icon-back"></i>
+                </button>
+                <form class= search>
+                    <div class="wrap-btn-input">
+                        <button class="btn-search">
+                            <i class="fas fa-search icon icon-search"></i>
+                        </button>
+                        <div class="wrap-input">
+                            <input type="text" class="form-control input-search" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV…">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="header-right">
+                <button class="circle-setting option-topic">
+                    <i class="fas fa-tshirt icon-option"></i>
+                    <span class="hover-show-text"> Chủ đề </span>
+                </button>
+
+                <button class="circle-setting option-download">
+                    <i class="fas fa-download icon-option" style="color: #fff;"></i>
+                    <span class="hover-show-text"> Tải xuống </span>
+                </button>
+
+                <button class="circle-setting option-setting">
+                    <i class="fas fa-cog icon-option" style="color: #fff;"></i>
+                    <span class="hover-show-text"> Cài đặt </span>
+                </button>
+
+                <figure class="is-rounded is-38x38 circle-setting" >
+                    <img src="./img/7442712d6a1da643ff0c.jpg">
+                </figure>
+            </div>
+        </header>
+        
+        <div class="content-main">
+            <div class="main-above">
+                <div class="option-update-right">
+                    <div class="update-vip option-update active-option-update">
+                        NÂNG CẤP VIP
+                    </div>
+                    
+                    <div class="get-code-vip option-update">
+                        NHẬN CODE VIP
+                    </div>
+
+                    <button class="option option-update">
+                        <i class="fas fa-cog icon-option" style="color: #fff;"></i>
+                    </button>
+                </div>
+                <div class="img-user">
+                    <figure class="is-rounded is-95x95" >
+                        <img src="./img/7442712d6a1da643ff0c.jpg">
+                    </figure>
+                </div>
+                <div class="name-user">
+                    <h1 style="color: #fff;">Nhân</h1>
+                </div>
+            </div>
+
+            <div class="main-center">
+                <ul class="ul-wrap-items">
+                    <li class="li-item is-active-item">
+                        <a href="#">TỔNG QUAN</a>
+                    </li>
+                    <li class="li-item">
+                        <a href="#">
+                            BÀI HÁT
+                        </a>
+                    </li>
+                    <li class="li-item">
+                        <a href="#">PLAYLIST</a>
+                    </li>
+                    <li class="li-item">
+                        <a href="#">PODCAST</a>
+                    </li>
+                    <li class="li-item">
+                        <button>
+                            <i class="fas fa-cog icon-option" style="color: #fff;"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "main-below container p-3 my-3">
+                <div class="wrap-header-list-song">
+                    <h4 style="color: #fff;">Bài Hát</h4>
+                    <div class="header-list-song-right">
+                        <button class="btn-header-list-song btn-upload">
+                            <i class="fas fa-download icon-header-list-song" style="color: #fff;"></i>
+                            <span>TẢI LÊN</span>
+                        </button>
+                        <button class="btn-header-list-song btn-play-all">
+                            <i class="fas fa-play icon-header-list-song" style="color: #fff;"></i>
+                            <span>PHÁT TẤT CẢ</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="wrap-image-songs">
+                    <ul class="list-image-of-song">
+                        <li class="image-of-song fade-1">
+                            <figure>
+                                <img src="">
+                            </figure>
+                        </li>
+                    </ul>
+                    <div class="list-song">
+                        <div class="container-songs">
+                            <div class="song">
+                                <div class="song-left">
+                                    <div class="song-left-image">
+                                        <figure class="is-40x40">
+                                            <img src="">
+                                        </figure>
+                                    </div>
+                                    <button class="is-40x40 node-play-hiden">
+                                        <i class='fas fa-play'></i>
+                                    </button>
+                                    <button class="is-40x40 icon-move-play">
+                                        <img src="./img/icon-move-play.gif">
+                                    </button>
+                                     <div class="song-infor">
+                                        <div class="song-infor-name">
+                                            Ten bai hat
+                                        </div>
+                                        <div class="song-infor-singer">
+                                            ten ca si
+                                        </div>
+                                     </div>
+                                </div>
+                                <div class="song-center">
+                                    <a href="#">Tuấn Hưng Collection</a>
+                                </div>
+                                <div class="song-right">
+                                    <div class="icon-hover">
+                                        <button class="circle-36x36 icon-mic">
+                                            <i class='fas fa-microphone'></i>
+                                        </button>
+                                    </div>
+                                    <div class="icon-no-hover">
+                                        <button class="circle-36x36 icon-heart">
+                                            <i class='fas fa-heart' style="color: violet;"></i>
+                                        </button>
+                                        <button class="circle-36x36 icon-more">
+                                            <i class='fas fa-ellipsis-h'></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="main-footer">
+                <div class="main-footer-title">
+                    <h3>Playlist</h3>
+                    <a href="#">Tất cả <i class="fa fa-angle-right"></i></a>
+                </div>
+                <div class="wrap-playlist">
+                    <div class="row wrap-create-playlist-new">
+                        <div class="col-sm-2 create-playlist-new">
+                            <div>
+                                <i class="fas fa-plus"></i>
+                                <span>Tạo playlist mới</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 created-playlist">
+                            <div class="x-playlist">
+                                <div class="playlist-img">
+                                    <figure>
+                                        <img src="./img/user-playlist.jpg">
+                                    </figure>
+                                    <div class="hover-display-icon">
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fa fa-close" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 circle-50x50">
+                                            <i class="fas fa-play" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fas fa-ellipsis-h" style="color: #fff;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text-playlist">
+                                    <h4>
+                                        <a href="#">Nhạc của tôi</a>
+                                    </h4>
+                                    <span>
+                                        Nguyễn Thành Nhân
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 created-playlist">
+                            <div class="x-playlist">
+                                <div class="playlist-img">
+                                    <figure>
+                                        <img src="./img/album_default.png">
+                                    </figure>
+                                    <div class="hover-display-icon">
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fa fa-close" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 circle-50x50">
+                                            <i class="fas fa-play" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fas fa-ellipsis-h" style="color: #fff;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text-playlist">
+                                    <h4>
+                                        <a href="#">Nhạc của tôi</a>
+                                    </h4>
+                                    <span>
+                                        Nguyễn Thành Nhân
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 created-playlist">
+                            <div class="x-playlist">
+                                <div class="playlist-img">
+                                    <figure>
+                                        <img src="./img/album_default.png">
+                                    </figure>
+                                    <div class="hover-display-icon">
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fa fa-close" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 circle-50x50">
+                                            <i class="fas fa-play" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fas fa-ellipsis-h" style="color: #fff;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text-playlist">
+                                    <h4>
+                                        <a href="#">Nhạc của tôi</a>
+                                    </h4>
+                                    <span>
+                                        Nguyễn Thành Nhân
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 created-playlist">
+                            <div class="x-playlist">
+                                <div class="playlist-img">
+                                    <figure>
+                                        <img src="./img/album_default.png">
+                                    </figure>
+                                    <div class="hover-display-icon">
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fa fa-close" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 circle-50x50">
+                                            <i class="fas fa-play" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fas fa-ellipsis-h" style="color: #fff;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text-playlist">
+                                    <h4>
+                                        <a href="#">Nhạc của tôi</a>
+                                    </h4>
+                                    <span>
+                                        Nguyễn Thành Nhân
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 created-playlist">
+                            <div class="x-playlist">
+                                <div class="playlist-img">
+                                    <figure>
+                                        <img src="./img/album_default.png">
+                                    </figure>
+                                    <div class="hover-display-icon">
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fa fa-close" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 circle-50x50">
+                                            <i class="fas fa-play" style="color: #fff;"></i>
+                                        </button>
+                        
+                                        <button class="circle-30x30 hover-30x30">
+                                            <i class="fas fa-ellipsis-h" style="color: #fff;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text-playlist">
+                                    <h4>
+                                        <a href="#">Nhạc của tôi</a>
+                                    </h4>
+                                    <span>
+                                        Nguyễn Thành Nhân
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="abc-footer dis-flex-center">
+                <div class="wrap-ft-left">
+                    <div class="ft-left">
+                        <div class="ft-song-left-image">
+                            <figure class="is-64x64">
+                                <img src="">
+                            </figure>
+                        </div>
+                        <div class="song-infor">
+                            <div class="song-infor-name">
+                                Bai hat
+                            </div>
+                            <div class="song-infor-singer">
+                                Ten ca si
+                            </div>
+                        </div>
+                        <div class="icon-no-hover">
+                            <button class="circle-26x26 icon-heart">
+                                <i class='fas fa-heart' style="color: violet;"></i>
+                            </button>
+                            <button class="circle-26x26 icon-more">
+                                <i class='fas fa-ellipsis-h'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-ft-center">
+                    <div class="ft-center">
+                        <div class="wrap-icon-option">
+                            <div class="icon-option-ct">
+                                <button class="circle-26x26 icon-shuffle">
+                                    <i class="material-icons icon-color-white-size16">&#xe043;</i>
+                                    <span class="hover-show-text"> Phát ngẫu nhiên </span>
+                                </button>
+                                <button class="circle-26x26 icon-backward">
+                                    <i class="fa fa-step-backward icon-color-white-size16"></i>
+                                </button>
+                                <button class="circle-30x30 circle-40x40 icon-play">
+                                    <i class="fas fa-play icon-color-white-size16"></i>
+                                </button>
+                                <button class="circle-30x30 circle-40x40 icon-pause">
+                                    <i class="fa fa-pause icon-color-white-size16"></i>
+                                </button>
+                                <button class="circle-26x26 icon-next">
+                                    <i class="fa fa-step-forward icon-color-white-size16"></i>
+                                </button>
+                                <button class="circle-26x26 icon-repeat">
+                                    <i class="fa fa-repeat icon-color-white-size16"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="ct-wrap-bar-duration"> 
+                            <span class="timeline-left">
+                                00:00
+                            </span>
+                            <div class="bar-duration">
+                                <input id="myProgress" class="progress-bar" type="range" value="0" step="1" min="0" max="100">
+
+                                </input>
+                                
+                            </div>
+                            <audio id="audio" src="">
+                            </audio>
+                            <span class="timeline-right">
+                                05:00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-ft-right">
+                    <div class="ft-right">
+                        <div class="ft-icon-right">
+                            <button class="circle-26x26 icon-mv">
+                                <i class="fab fa-spotify icon-color-white-size16"></i>
+                            </button>
+                            <button class="circle-26x26 icon-mic2">
+                                <i class="fas fa-microphone icon-color-white-size16"></i>
+                            </button>
+                            <button class="circle-26x26 icon-speaker">
+                                <i class="fas fa-volume-up icon-color-white-size16"></i>
+                            </button>
+                        </div>
+                        <input id="mySound" class="sound-bar" type="range" value="0" step="1" min="0" max="100">
+
+                        </input>
+                        <button class="square-26x26 icon-list-play">
+                            <i class="fas fa-sliders-h icon-color-white-size16"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/js.js"></script>
+    <script src="./js/jsMain.js"></script>
+</body>
+</html>
