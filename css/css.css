@@ -70,6 +70,7 @@ li {
   /* height: calc(100% - 90px); */
   padding-top: 70px;
   padding-bottom: 54px;
+  display: none;
 }
 
 .nav-vertical-left .nav-logo,
