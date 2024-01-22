@@ -123,7 +123,13 @@ const obj = {
         pathImg: 'https://avatar-ex-swe.nixcdn.com/song/2018/04/10/d/c/7/b/1523334524077_640.jpg',
         timeSong: ''
       },
-
+      {
+        name: '',
+        singer: 'Taylor Swift',
+        path: "./audio/lover.mp3",
+        pathImg: 'https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png',
+        timeSong: ''
+      },
       {
         name: 'De Yang Gatal Sa (DESA Remix)',
         singer: 'Aldo Bz',
